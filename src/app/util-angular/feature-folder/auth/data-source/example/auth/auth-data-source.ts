@@ -3,7 +3,7 @@ import {CredentialsInterface} from './credentials-interface';
 import {AuthInterface} from './auth-interface';
 import {BehaviorSubject, Observable, of, Subject, throwError} from 'rxjs';
 import {catchError, distinctUntilChanged, filter, first, map, mergeMap, shareReplay, tap} from 'rxjs/operators';
-import {apiUrl} from '../../../../../../config/api-url';
+import {apiUrl} from '../../../../../src/app/config/api-url';
 import {logoutUrlSuffix} from './logout-url-suffix';
 import {loginUrlSuffix} from './login-url-suffix';
 import {HttpClient, HttpErrorResponse, HttpEvent, HttpHandler, HttpRequest} from '@angular/common/http';

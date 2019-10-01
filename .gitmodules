@@ -1,0 +1,3 @@
+[submodule "src/app/util-angular"]
+	path = src/app/util-angular
+	url = https://github.com/ivanivanyuk1993/util-angular.git

@@ -5,7 +5,7 @@ import {distinctUntilChanged, map, take, tap} from 'rxjs/operators';
 import {computeLevenshteinDistanceAmortized} from '../../../../../util-typescript/compute-levenshtein-distance/compute-levenshtein-distance-amortized';
 import {LocalizationService} from '../../../../localization/localization/localization.service';
 import {HttpClient} from '@angular/common/http';
-import {apiUrl} from '../../../../../../config/api-url';
+import {apiUrl} from '../../../../../src/app/config/api-url';
 import {routeListUrlSuffix} from './route-list-url-suffix';
 import {AuthService} from '../../../../auth/auth/auth.service';
 import {getMergedComparatorFunc} from '../../../../../util-typescript/comparator/get-merged-comparator-func/get-merged-comparator-func';
